@@ -1,3 +1,7 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 body {
     display: flex;
     justify-content: center;
@@ -5,6 +9,8 @@ body {
     height: 100vh;
     background-color: #F8C8DC;
     overflow: hidden;
+    animation-name:fadeIn;
+    animation-duration: 2s;
 }
 
 /* Position the "No" button absolutely within body */
