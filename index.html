@@ -30,6 +30,11 @@
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
                     }
+
+                    document.addEventListener('dblclick', function(event){
+                    event.preventDefault();
+                }, { passive: false });
+
                 </script> 
             </div>
         </div>

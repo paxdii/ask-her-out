@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
+    overflow: hidden;
 }
 
 /* Position the "No" button absolutely within body */
@@ -56,6 +57,14 @@ body {
 
 .btn:hover {
     background-color: #FAF9F6;
+    color: #FFB6C1;
+}
+
+#nobutton{
+    will-change: transform;
+}
+#nobutton:active{
+    background-color: #FFB6C1;
 }
 
 .gif_container {
